@@ -1,0 +1,36 @@
+{
+  "name": "shop-cy",
+  "version": "1.0.0",
+  "description": "Cypress automation tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "eslint": "npx eslint cypress",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "cypress:record": "cypress run --record --key"
+  },
+  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RemusHez/shop-cy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RemusHez/shop-cy/issues"
+  },
+
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "cypress": "^13.6.4",
+    "eslint": "^8.29.0",
+    "eslint-config-google": "^0.14.0"
+  },
+  "dependencies": {
+    "cypress-localstorage-commands": "^2.2.1",
+    "cypress-wait-until": "^1.7.2",
+    "eslint": "^8.29.0",
+    "eslint-config-google": "^0.14.0"
+  }
+}
