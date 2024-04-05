@@ -8,7 +8,7 @@ class CustomerLoginPage {
       cy.get('#send2'),
   };
 
-  // Action
+  // Actions
   fillEmailField() {
     this.customerLoginPageElements.emailField()
         .click()

@@ -1,5 +1,5 @@
 import 'cypress-wait-until';
-
+// User Log In
 Cypress.Commands.add('login', (email, password) => {
   cy.visit('/');
   cy.get('[data-label="or"]').first().click();

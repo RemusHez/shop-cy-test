@@ -26,7 +26,7 @@ class CheckoutPage {
       cy.contains('Next'),
   };
 
-  // Actions
+  // Action
   fillInCheckoutEmailAddress() {
     this.checkoutPageElements.checkoutEmailAddressField()
         .click()

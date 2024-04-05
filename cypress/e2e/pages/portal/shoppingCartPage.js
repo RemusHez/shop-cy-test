@@ -11,8 +11,6 @@ class ShoppingCartPage {
       cy.get(':nth-child(1) > .product-item-info > .details > .actions > '+
       '.actions-primary > form > .action'),
     deleteFirstItemFromCartButton: () =>
-      // cy.get(':nth-child(3) > .item-actions > td > .actions-toolbar > '+
-      // '.action-delete'),
       cy.get('.action-delete'),
     cartEmptyMessage: () =>
       cy.get('.cart-empty > :nth-child(1)'),

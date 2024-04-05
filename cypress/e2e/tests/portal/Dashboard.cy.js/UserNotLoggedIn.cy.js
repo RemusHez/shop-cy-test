@@ -10,7 +10,7 @@ context('UI tests for user', () => {
       dashboardCommonPage.visitDashboardPage();
     });
 
-    it('User is able to buy Men Hoodie - E2E flow', () => {
+    it('Not Logged User is able to buy Men Hoodie - E2E flow', () => {
       dashboardCommonPage.clickMenSectionButton();
       menItemsPage.clickHoodiesSweatshirts();
       menItemsPage.clickOnFirstItemFromList();
@@ -26,7 +26,7 @@ context('UI tests for user', () => {
       paymentsPage.checkPurchaseConfirmationMessageIsDisplayed();
     });
 
-    it('User is able to add and remove items from cart', () => {
+    it('Not Logged User is able to add and remove items from cart', () => {
       dashboardCommonPage.checkCartIsEmpty();
       dashboardCommonPage.visitDashboardPage();
       dashboardCommonPage.clickOnFirstItemFromHotSellers();

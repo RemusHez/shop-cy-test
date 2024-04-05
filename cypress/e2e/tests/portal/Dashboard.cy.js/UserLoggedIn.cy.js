@@ -10,7 +10,7 @@ context('UI tests for user', () => {
       dashboardCommonPage.visitDashboardPage();
     });
 
-    it('User is able to buy Men Hoodie - E2E flow', () => {
+    it('Logged User is able to buy Men Hoodie - E2E flow', () => {
       cy.login();
       dashboardCommonPage.clickMenSectionButton();
       menItemsPage.clickHoodiesSweatshirts();
@@ -26,7 +26,7 @@ context('UI tests for user', () => {
       paymentsPage.checkPurchaseConfirmationMessageIsDisplayed();
     });
 
-    it('User is able to add and remove items from cart', () => {
+    it('Logged User is able to add and remove items from cart', () => {
       cy.login();
       dashboardCommonPage.checkCartIsEmpty();
       dashboardCommonPage.visitDashboardPage();

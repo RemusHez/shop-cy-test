@@ -8,7 +8,7 @@ class MenItemsPage {
       '.product-image-photo'),
   };
 
-  // Actions
+  // Action
   clickHoodiesSweatshirts() {
     this.menItemsElements.hoodiesCategory()
         .click();
