@@ -6,7 +6,7 @@ class PaymentsPage {
       cy.get('[data-ui-id="page-title-wrapper"]'),
   };
 
-  // Actions
+  // Action
   clickPlaceOrderButton() {
     this.paymentsPageElements.placeOrderButton()
         .click();

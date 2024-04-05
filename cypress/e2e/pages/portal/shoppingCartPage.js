@@ -16,7 +16,7 @@ class ShoppingCartPage {
       cy.get('.cart-empty > :nth-child(1)'),
   };
 
-  // Actions
+  // Action
   goToCheckout() {
     this.cartElements.checkoutButton()
         .should('be.visible')

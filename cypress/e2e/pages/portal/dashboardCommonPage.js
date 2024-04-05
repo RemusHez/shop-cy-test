@@ -30,7 +30,7 @@ class DashboardCommonPage {
       cy.get('#product-addtocart-button'),
   };
 
-  // Action
+  // Actions
   visitDashboardPage() {
     cy.visit('/');
   }

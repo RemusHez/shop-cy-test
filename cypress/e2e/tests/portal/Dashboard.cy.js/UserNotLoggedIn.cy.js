@@ -5,7 +5,7 @@ import checkoutPage from '../../../pages/portal/checkoutPage';
 import paymentsPage from '../../../pages/portal/paymentsPage';
 
 context('UI tests for user', () => {
-  describe('UI tests for users that are not logged in', () => {
+  describe('UI tests for Users that are not logged in', () => {
     beforeEach(() => {
       dashboardCommonPage.visitDashboardPage();
     });

@@ -1,5 +1,4 @@
 // / <reference types="cypress" />
-/* eslint-disable max-len */
 import 'cypress-localstorage-commands';
 
 class Apis {
